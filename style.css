@@ -11,28 +11,42 @@ p {
 }
 
 body {
+    display: flex
+    flex-direction: row;
     text-align: center;
     font-family: 'Courgette', cursive;
     background: no-repeat center center fixed;
     background-size: cover;
 }
 
-.bloctop{
+.bloctop {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-    background: rgba(255,252,232,0.19);
+    align-items: center;
+    flex-shrink: 3;
+    background: rgba(255, 252, 232, 0.19);
     padding-top: 10px;
+}
+
+.img1 {
+    border-radius: 50%;
 }
 
 div.titre {
     font-family: 'Balsamiq Sans', cursive;
     font-size: 300%;
-    background: rgba(169,169,169,0.49);
-    border: 5px #3d3d3d;
-    padding: 35px;
+}
+
+.blocmid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 3;
+    background: rgba(255, 252, 232, 0.19);
 }
 
 div.jauges {
@@ -42,6 +56,10 @@ div.jauges {
     border: 10px #3d3d3d;
     outline: solid 1px;
     padding: 20px;
+}
+
+.img2 {
+    border-radius: 50%;
 }
 
 .bloccentral {
@@ -55,6 +73,7 @@ div.jauges {
 
 .thumb{
     border-radius: 50%;
+    size: 70%;
 }
 
 div.imgdroites {
