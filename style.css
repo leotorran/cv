@@ -6,6 +6,10 @@ h1 {
     color: darkred;
 }
 
+p {
+    font-size: 120%;
+}
+
 body {
     text-align: center;
 
@@ -19,14 +23,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-div.photo1 {
-    display: flex;
-}
-
-div.photo2 {
-    display: flex;
 }
 
 div.titre {
@@ -87,6 +83,6 @@ div.imggauches {
 }
 
 .nuage1 {
-    margin: 0 auto;
+    display: flex
 }
 
