@@ -4,6 +4,7 @@
     <list default="true" id="09945e2b-4fe4-4e68-985b-abacb9bdfe1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1634555830151</updated>
       <workItem from="1634555831557" duration="3430000" />
-      <workItem from="1634670850881" duration="21311000" />
+      <workItem from="1634670850881" duration="21915000" />
+      <workItem from="1634731652458" duration="2062000" />
     </task>
     <servers />
   </component>
@@ -82,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
