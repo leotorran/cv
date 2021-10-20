@@ -31,6 +31,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/rennard-leo-dbz-nolag.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zg3JL8mQej9e6YMIYbFA9rggDb" />
@@ -67,7 +69,7 @@
       <updated>1634555830151</updated>
       <workItem from="1634555831557" duration="3430000" />
       <workItem from="1634670850881" duration="21915000" />
-      <workItem from="1634731652458" duration="2062000" />
+      <workItem from="1634731652458" duration="5519000" />
     </task>
     <servers />
   </component>
