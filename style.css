@@ -14,18 +14,19 @@ body {
     background-size: cover;
 }
 
+.bloctop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 div.photo1 {
-    float:left;
-    box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
+    display: flex;
 }
 
 div.photo2 {
-    float:right;
-    box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
+    display: flex;
 }
 
 div.titre {
