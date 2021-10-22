@@ -30,13 +30,14 @@ body {
     padding-top: 10px;
 }
 
-.img1 {
-    border-radius: 50%;
-}
-
 div.titre {
     font-family: 'Balsamiq Sans', cursive;
     font-size: 300%;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: column;
 }
 
 .blocmid {
@@ -45,21 +46,19 @@ div.titre {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    gap: 0px;
     flex-shrink: 3;
     background: rgba(255, 252, 232, 0.19);
 }
 
 div.jauges {
+    display: flex;
     flex-direction: column;
     background: rgba(169,169,169,0.49);
     width: 210px;
     border: 10px #3d3d3d;
     outline: solid 1px;
     padding: 20px;
-}
-
-.img2 {
-    border-radius: 50%;
 }
 
 .bloccentral {
