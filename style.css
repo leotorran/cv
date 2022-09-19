@@ -1,113 +1,150 @@
 html {
-    background: url(morsullaz.jpg) no-repeat center center fixed;
+    background: url(bg.png) no-repeat center center fixed;
     background-size: cover;
 }
+
+
 h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 400%;
     color: darkred;
+}
+
+h2{
+    font-family: 'Baskervville', serif;
+}
+
+h3{
+    font-family: 'Baskervville', serif;
 }
 
 p {
     font-size: 120%;
+
 }
 
 body {
-    display: flex
-    flex-direction: row;
-    text-align: center;
-    font-family: 'Courgette', cursive;
     background: no-repeat center center fixed;
     background-size: cover;
 }
 
-
-
-.bloctop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 3;
-    background: rgba(255, 252, 232, 0.19);
-    padding-top: 10px;
-}
-
-div.titre {
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 300%;
-}
-
-.img2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.blocmid {
-    display: flex;
-    flex-direction: row;
+.wrapper{
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
-    gap: 0px;
-    flex-shrink: 3;
-    background: rgba(255, 252, 232, 0.19);
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-div.jauges {
+.cleft{
     display: flex;
     flex-direction: column;
-    background: rgba(169,169,169,0.49);
+    justify-content: space-between;
+    margin-left: 50px;
+    background: rgba(169,169,169,1);
+}
+
+.cmid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+    background: rgba(169,169,169,1);
+}
+
+.jeux {
+    order: 4;
+}
+
+.qualites{
+    background: rgba(169,169,169,1);
     width: 210px;
     border: 10px #3d3d3d;
     outline: solid 1px;
     padding: 20px;
 }
 
-.bloccentral {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    background: rgba(255,252,232,0.19);
-    padding-bottom: 10px;
-}
-
-.thumb{
-    border-radius: 50%;
-    size: 70%;
-}
-
-div.imgdroites {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-div.jeux {
-    background: rgba(169,169,169,0.49);
-    width: 210px;
-    border: 10px #3d3d3d;
-    outline: solid 1px;
-    padding: 20px;
-    margin: 20px auto;
-}
-
-div.imggauches {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.introduce {
-    background: rgba(169,169,169,0.49);
+.aboutme {
+    order: 5;
+    background: rgba(169,169,169,1);
     width: 900px;
     border: 10px #3d3d3d;
     outline: solid 1px;
     padding: 20px;
 }
 
+.alternance {
+    order: 6;
+    background: rgba(169,169,169,1);
+    width: 900px;
+    border: 10px #3d3d3d;
+    outline: solid 1px;
+    padding: 20px;
+}
 
-.cloud {
-    flex-direction: column;
+.thumbs{
+    size: 70%;
+}
+
+div.jeux {
+    background: rgba(169,169,169,1);
+    width: 400px;
+    border: 10px #3d3d3d;
+    outline: solid 1px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.introduce {
+    background: rgba(169,169,169,1);
+    width: 900px;
+    border: 10px #3d3d3d;
+    outline: solid 1px;
+    padding: 20px;
+}
+
+.introduce:nth-child(1){
+    order:2;
+    flex: 1;
+}
+
+.jauges:nth-child(2){
+    order:4;
+}
+
+.jeux:nth-child(3){
+    order:5;
+}
+
+.aboutme:nth-child(4){
+    order: 6;
+}
+
+.photoprofil:nth-child(5){
+    order: 1;
+}
+
+.mood:nth-child(6){
+    order: 3;
+}
+
+.thumb1:nth-child(7){
+    order:7;
+}
+
+.thumb2:nth-child(8){
+    order:9;
+}
+
+.alternance:nth-child(9){
+    order: 8;
 }
 
