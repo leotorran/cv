@@ -38,6 +38,7 @@ body {
 .wrapper{
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-family: 'Figtree', sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -62,10 +63,10 @@ body {
 }
 
 .github_text {
-    position: absolute;
     padding-top: 95.55px;
     padding-bottom: 95.55px;
     width: 400px;
+    position: absolute;
     background: rgba(102, 34, 133);
     color: #fff;
     visibility: hidden;
@@ -88,10 +89,10 @@ body {
 }
 
 .linkedin_text {
-    position: absolute;
     padding-top: 95.55px;
     padding-bottom: 95.55px;
     width: 400px;
+    position: absolute;
     background: rgba(10, 102, 194);
     color: #fff;
     visibility: hidden;
@@ -114,10 +115,10 @@ body {
 }
 
 .cv_text {
-    position: absolute;
     padding-top: 95.55px;
     padding-bottom: 95.55px;
     width: 400px;
+    position: absolute;
     background: rgba(255, 33, 22);
     color: #fff;
     visibility: hidden;
