@@ -65,6 +65,7 @@ body {
     position: absolute;
     padding-top: 95.55px;
     padding-bottom: 95.55px;
+    width: 400px;
     background: rgba(102, 34, 133);
     color: #fff;
     visibility: hidden;
@@ -90,6 +91,7 @@ body {
     position: absolute;
     padding-top: 95.55px;
     padding-bottom: 95.55px;
+    width: 400px;
     background: rgba(10, 102, 194);
     color: #fff;
     visibility: hidden;
@@ -115,6 +117,7 @@ body {
     position: absolute;
     padding-top: 95.55px;
     padding-bottom: 95.55px;
+    width: 400px;
     background: rgba(255, 33, 22);
     color: #fff;
     visibility: hidden;
