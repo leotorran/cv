@@ -3,6 +3,9 @@ html {
     background-size: cover;
 }
 
+strong{
+    font-size:15px;
+}
 
 h1 {
     font-family: 'Outfit', sans-serif;
@@ -18,6 +21,10 @@ h3{
     font-family: 'Baskervville', serif;
 }
 
+ul{
+    margin-right: 36.5px;
+}
+
 p {
     font-size: 120%;
 
@@ -31,7 +38,7 @@ body {
 .wrapper{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-family: 'Figtree', sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -43,7 +50,90 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 50px;
-    background: rgba(169,169,169,0.4);
+}
+
+.purple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width:400px;
+    background: rgb(102, 34, 133, 0.4);
+}
+
+.github_text {
+    position: absolute;
+    flex-grow:1;
+    background: rgba(102, 34, 133);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.purple:hover .github_text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width:400px;
+    background: rgb(10, 102, 194, 0.4);
+}
+
+.linkedin_text {
+    position: absolute;
+    display: flex;
+    flex-shrink: 1;
+    background: rgba(10, 102, 194);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.blue:hover .linkedin_text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width:400px;
+    background: rgb(255, 33, 22,0.4);
+}
+
+.cv_text {
+    position: absolute;
+    flex-grow:1;
+    background: rgba(255, 33, 22);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: opacity .01s, visibility .01s;
+}
+
+.red:hover .cv_text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gitlogo{
+    align-items: center;
+    justify-content: center;
 }
 
 .cmid{
@@ -57,23 +147,46 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin-right: 50px;
-    background: rgba(169,169,169,0.4);
+    background: rgba(21, 94, 49, 0.39);
 }
 
-.jeux {
-    order: 4;
+.innerright{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: rgba(167, 248, 234, 0.39);
 }
 
-.qualites{
-    background: rgba(169,169,169,1);
-    width: 210px;
-    border: 10px #3d3d3d;
-    outline: solid 1px;
-    padding: 20px;
+.interests{
+    margin-top: -5px;
+    padding-bottom: 1px;
+}
+
+.languages{
+    margin-bottom: -20px;
+}
+
+.humanskills{
+    padding-bottom: 1px;
+}
+
+.title{
+    background: rgba(167, 248, 234, 0.39);
+}
+
+.techskills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    padding-bottom: 5px;
+}
+
+.bloctxt{
+    margin-left: 50px;
 }
 
 .aboutme {
-    order: 5;
     background: rgba(169,169,169,1);
     width: 900px;
     border: 10px #3d3d3d;
@@ -82,7 +195,6 @@ body {
 }
 
 .alternance {
-    order: 6;
     background: rgba(169,169,169,1);
     width: 900px;
     border: 10px #3d3d3d;
@@ -109,42 +221,5 @@ div.jeux {
     border: 10px #3d3d3d;
     outline: solid 1px;
     padding: 20px;
-}
-
-.introduce:nth-child(1){
-    order:2;
-    flex: 1;
-}
-
-.jauges:nth-child(2){
-    order:4;
-}
-
-.jeux:nth-child(3){
-    order:5;
-}
-
-.aboutme:nth-child(4){
-    order: 6;
-}
-
-.photoprofil:nth-child(5){
-    order: 1;
-}
-
-.mood:nth-child(6){
-    order: 3;
-}
-
-.thumb1:nth-child(7){
-    order:7;
-}
-
-.thumb2:nth-child(8){
-    order:9;
-}
-
-.alternance:nth-child(9){
-    order: 8;
 }
 
