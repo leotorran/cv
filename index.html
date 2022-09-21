@@ -11,6 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Outfit&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Figtree&family=Outfit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function Copy() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copié";
+        }
+    </script>
 </head>
 
 <body>
@@ -49,11 +60,25 @@
     <div class="introduce">
                     <h1>RENNARD Léo</h1>
                     <p>Né le 20 août 1999</p>
+        <div class="contact">
+
+            <div class="deepblue">
+                <img class="discord" src="discord.png" alt="Discord" height="50" width="50">
+                <p class="discord_text">Torran#5066</p>
+            </div>
 
 
-                <audio controls autoplay>
-                    <source src="sgbgm.mp3" type="audio/mpeg">
-                </audio>
+            <div class="bordeaux">
+                <img class="mail" src="mail.png" alt="Adresse Mail" height="50" width="50">
+                <p class="mail_text">rennard.leo.2008@gmail.com</p>
+            </div>
+
+            <div class="green">
+                <img class="phone" src="phone.png" alt="Numéro de Téléphone" height="50" width="50">
+                <p class="phone_text">0680851486</p>
+            </div>
+        </div>
+
     </div>
 
     <!-- Child 3 -->
@@ -75,7 +100,7 @@
 
                 <p>
                 <h2>A propos de moi</h2>
-                Passionné de nature et de jeux vidéos en tout genre, j'ai essayé beaucoup de choses avant de vouloir postuler pour une alternance. Titulaire d'un Bac L, je me suis par la suite inscrit à la Fac en LLCER Anglais.
+                Passionné de nature et de technologies en tout genre, j'ai essayé beaucoup de choses avant de vouloir postuler pour une alternance. Titulaire d'un Bac L, je me suis par la suite inscrit à la Fac en LLCER Anglais.
                 Entre temps j'ai voyagé et travaillé principalement en intérim, en passant la majeure partie de mon temps à photographier la nature et l'environnement. J'aime beaucoup explorer et découvrir,
                 je suis quelqu'un de très curieux et toujours ouvert aux nouvelles expériences quand il s'agit d'apprendre et d'aller vers les autres. Professionnellement, je souhaiterai à terme pouvoir mettre
                 à profit ma rigueur et ma créativité afin de me former dans un métier permettant d'exploiter ces qualités.
@@ -84,7 +109,7 @@
                 Tout d'abord, j'ai commencé à apprendre avec un ancien guide depuis OpenClassrooms. J'y ai appris les bases de l'HTML et un peu de CSS, par simple curiosité (à cette période je souhaitais devenir Professeur d'Anglais).
                 Puis je me suis inscrit à l'ETPA Montpellier afin de préparer un Bachelor Conception et Réalisation de Jeux Vidéos. J'y ai appris les bases du Python, du C++, et j'ai pu travailler sur un moteur de jeu (PHASER 3).
                 J'ai aussi commencé à pratiquer un peu sur Codingames, et nous avons pu travailler sur quelques projets en Lua. C'est ici que j'ai vraiment compris quelle était ma vocation. La satisfaction ressentie en fabriquant quelquechose
-                a partir d'un code me fascine, et c'est principalement lors du premier projet abordé à l'école que j'ai découvert que le Web est le domaine qui me conviendrait parfaitement.
+                a partir d'un code me fascine, et c'est principalement lors du premier projet abordé à l'école que j'ai découvert que le Web est le domaine qui me conviendrait parfaitement (Fullstack).
 
 
             </div>
@@ -142,7 +167,7 @@
 
                 <div class="blocimg">
                     <img class="led" src="bar4.png" alt="Avancé">
-                    <img class="led" src="bar3.png" alt="Intermédiaire">
+                    <img class="led" src="bar2.png" alt="Débutant">
                     <img class="led" src="bar1.png" alt="Initié">
                     <img class="led" src="bar3.png" alt="Intermédiaire">
                 </div>

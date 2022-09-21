@@ -37,7 +37,7 @@ body {
 
 .wrapper{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: 'Figtree', sans-serif;
     text-align: center;
@@ -131,14 +131,11 @@ body {
     opacity: 1;
 }
 
-.gitlogo{
-    align-items: center;
-    justify-content: center;
-}
 
 .cmid{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
 }
 
@@ -217,10 +214,93 @@ div.jeux {
 }
 
 .introduce {
-    background: rgba(169,169,169,1);
+    background: rgba(169,169,169,0.8);
     width: 900px;
     border: 10px #3d3d3d;
-    outline: solid 1px;
-    padding: 20px;
+    padding: 20px 20 px 0px 20px;
 }
 
+.contact {
+    width: 930px;
+    margin-left: -15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.deepblue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: rgb(84, 96, 230);
+}
+
+.discord_text {
+    width: 310px;
+    height 50px;
+    position: absolute;
+    background: rgba(10, 102, 194);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.discord:hover .discord_text{
+    visibility: visible;
+    opacity: 1;
+}
+
+.bordeaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: rgb(175, 48, 39);
+}
+
+.mail_text {
+    padding-top: 95.55px;
+    padding-bottom: 95.55px;
+    width: 310px;
+    position: absolute;
+    background: rgba(10, 102, 194);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.mail:hover mail_text{
+    visibility: visible;
+    opacity: 1;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: rgb(37, 207, 71);
+}
+
+.phone_text {
+    padding-top: 95.55px;
+    padding-bottom: 95.55px;
+    width: 310px;
+    position: absolute;
+    background: rgba(10, 102, 194);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.green:hover phone_text{
+    visibility: visible;
+    opacity: 1;
+}
