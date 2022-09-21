@@ -221,9 +221,9 @@ div.jeux {
 }
 
 .contact {
-    width: 930px;
-    margin-left: -15px;
-    padding-bottom: 5px;
+    width: 900px;
+    margin-left: 0px;
+    padding-bottom: 10px;
     padding-top: 5px;
     display: flex;
     flex-direction: row;
@@ -240,8 +240,10 @@ div.jeux {
 }
 
 .discord_text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 250%;
     width: 310px;
-    height 50px;
     position: absolute;
     background: rgba(10, 102, 194);
     color: #fff;
@@ -250,7 +252,7 @@ div.jeux {
     transition: opacity .2s, visibility .2s;
 }
 
-.discord:hover .discord_text{
+.deepblue:hover .discord_text{
     visibility: visible;
     opacity: 1;
 }
@@ -264,18 +266,19 @@ div.jeux {
 }
 
 .mail_text {
-    padding-top: 95.55px;
-    padding-bottom: 95.55px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     width: 310px;
+    font-size: 141%;
     position: absolute;
-    background: rgba(10, 102, 194);
+    background: rgba(175, 48, 39);
     color: #fff;
     visibility: hidden;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
 }
 
-.mail:hover mail_text{
+.bordeaux:hover .mail_text{
     visibility: visible;
     opacity: 1;
 }
@@ -289,18 +292,19 @@ div.jeux {
 }
 
 .phone_text {
-    padding-top: 95.55px;
-    padding-bottom: 95.55px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     width: 310px;
+    font-size: 250%;
     position: absolute;
-    background: rgba(10, 102, 194);
+    background: rgba(37, 207, 71);
     color: #fff;
     visibility: hidden;
     opacity: 0;
     transition: opacity .2s, visibility .2s;
 }
 
-.green:hover phone_text{
+.green:hover .phone_text{
     visibility: visible;
     opacity: 1;
 }
