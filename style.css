@@ -41,15 +41,14 @@ body {
     flex-wrap: wrap;
     font-family: 'Figtree', sans-serif;
     text-align: center;
+    margin: 0 auto;
     width: 1920px;
-    position: sticky;
 }
 
 .cleft{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 50px;
     width: 350px;
 }
 
@@ -143,7 +142,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 50px;
     width:350px;
     background: rgba(21, 94, 49, 0.39);
 }
