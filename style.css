@@ -37,7 +37,6 @@ body {
 
 .wrapper{
     display:flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Figtree', sans-serif;
     text-align: center;
@@ -50,6 +49,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin-left: 50px;
+    width:400px;
 }
 
 .purple{
@@ -147,6 +147,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin-right: 50px;
+    width:400px;
     background: rgba(21, 94, 49, 0.39);
 }
 
